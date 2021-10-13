@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(yellow 3%, transparent 3%),
+       radial-gradient(#fafafa 3%, transparent 3%);
+    background-color: #000000;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+
+  #landingPage{
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #startTxt {
+    text-align: center;
+    color: tomato;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    padding: 70px 10px 40px 10px;
+    font-family: 'Rubik Beastly', cursive;
+    letter-spacing: 5px;
+}
+
+.gridLayout {
+    display: grid;
+    grid-template-areas: 'new guest registered';
+    width: 60vw;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.newMember{grid-area: new; margin: 0px auto;}
+
+.guest{grid-area: guest; margin: 0px auto;}
+
+.registered{grid-area: registered; margin: 0px auto;}
+
+.tooltip {
+    max-width: 150px;
+    font-size: 15px;
+    background: #00000094;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #9bc9d0;
+    margin: 0px auto;
+    margin-top: 18px;
+    transition: all 1s;
+    font-weight: 600;
+}
+
+
+.inpBtns {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+}
+
+.inpBtns:focus{
+    outline: none;
+}
+
+#newMmbrId {
+    background: #24576c;
+    color: white;
+    box-shadow: 0px 0px 10px 5px #3c3c3c;
+}
+
+
+.gst {
+    width: 180px;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 5px #393737;
+}
+
+#rgstrdMmbr {
+    background: #009fff;
+    color: white;
+    box-shadow: 0px 0px 10px 5px #3c3c3c;
+}
+
+.playbtn {
+    width: 185px;
+    margin: 40px auto;
+}
+
+#arrowTop{
+    width: 25px;
+    height: 25px;
+    background-color: #f4f4f4;
+    transform: rotate(45deg);
+    margin-top: -27px;
+    margin-left: 45px;
+}
+
+
+
+.d-none{
+    display: none!important;
+}
+
+
+/* -------------------- first page done now 2nd page --------------  */
+
+
+#instructions{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(0deg, rgba(36, 35, 35, 0.452), rgba(8, 8, 8, 0.527)), url("images/rat.gif") repeat;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;    */
+}
+
+#mainInstructions {
+    background: #ffffffd4;
+    background: linear-gradient(0deg, #202020d4, #ffffffd4), url("images/mouseclick.gif");
+    /* background: url("images/mouseclick.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 50vw;
+    min-height: 50vh;
+}
+
+
+.intructionsTxt{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 10px;
+    color: black;
+}
+
+
+#mainInstructs {
+    padding: 20px 30px;
+    line-height: 2.5;
+    color: black;
+}
+
+#uniqueName{
+    color: teal;
+    text-decoration-line: underline;
+}
+
+#next{
+    background: teal;
+    border: none;
+    box-shadow: 0px 0px 10px 5px #0006;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 15px auto;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.iconBlue{
+    color: teal;
+}
+
+
+
+

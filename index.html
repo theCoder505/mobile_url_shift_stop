@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Game Design</title>
+</head>
+
+<body>
+
+
+    <section id="landingPage">
+        <div id="landingPagecontent">
+            <div id="startTxt">
+                START PLAYING <br> AS
+            </div>
+
+            <div class="gridLayout">
+                <div class="newMember">
+                    <center>
+                        <input type="submit" value="New Member" id="newMmbrId" class="inpBtns">
+                    </center>
+
+                    <div class="tooltip toolmmbr">
+                        <div id="arrowTop"></div>
+                        Click this button and input your name & Start play!...
+                    </div>
+
+                </div>
+                <div class="guest">
+                    <center>
+                        <button class="gst inpBtns" id="giestId">GUEST</button>
+                    </center>
+                </div>
+                <div class="registered">
+                    <center>
+                        <input type="submit" value="Registered Member" id="rgstrdMmbr" class="inpBtns">
+                    </center>
+
+                    <div class="tooltip tooltipRgstrd">
+                        <div id="arrowTop"></div>
+                        Input your Exact Unique Player Name
+                    </div>
+                </div>
+            </div>
+
+            <center>
+                <img src="images/start.png" alt="START" id="playGame" class="playbtn">
+            </center>
+
+        </div>
+    </section>
+
+
+    <section id="instructions" class="d-none">
+        <div id="mainInstructions">
+            <h1 class="intructionsTxt">
+                GAME INSTRUCTIONS
+            </h1>
+
+            <div id="mainInstructs">
+
+
+                <h3 class="instucts">
+                    <i class="material-icons iconBlue"> touch_app </i>
+                    You will be known and your unique name is: <span id="uniqueName"> Robinhood@1234567 </span>
+                </h3>
+
+                <h3 class="instucts">
+                    <i class="material-icons iconBlue"> touch_app </i>
+                    Click to the specific field that asks for click,
+                </h3>
+
+                <h3 class="instucts">
+                    <i class="material-icons iconBlue"> touch_app </i>
+                    The person who can hold clicking for the max time wins the game,
+                </h3>
+
+                <h3 class="instucts">
+                    <i class="material-icons iconBlue"> touch_app </i>
+                    Hurray 😍 !!
+                    Let's start Playing!...
+                </h3>
+
+                <center>
+                    <button id="next">NEXT</button>
+                </center>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="design.js"></script>
+
+</body>
+
+</html>

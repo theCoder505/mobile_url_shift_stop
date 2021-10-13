@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 1000px) {
+    .gridLayout{
+        width: 80vw;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .gridLayout{
+        display: unset;
+        width: 100vw;
+    }
+
+    .guest{
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    .gst, .registered, #newMmbrId{
+        width: 80%;
+        margin: 0px auto;
+    }
+  }
